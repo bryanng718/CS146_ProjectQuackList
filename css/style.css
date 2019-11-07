@@ -1,0 +1,39 @@
+html {
+  font-family: 'Raleway', sans-serif;
+}
+
+body { 
+background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.title {
+  color:#FFFFFF;
+  text-align: center;
+}
+
+.container {
+    padding-top: 0.5em;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    background-color: white;
+    margin-bottom:5%;
+    border-radius: 4px;
+}
+
+/* Desktop CSS */
+@media only screen and (min-width: 999px) {
+  
+}
+
+/*Tablet CSS*/
+@media only screen and (min-width: 400px) and (max-width: 998px) {
+  
+}
+
+/*Phone CSS*/
+@media only screen and (max-width: 399px) {
+  
+}
