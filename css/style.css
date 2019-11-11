@@ -22,12 +22,41 @@ nav {
 a {
     color: black;
     text-decoration: none;
-    margin: 0% 1%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav-button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+}
+
+.nav-button:hover {
+    background-color: lightgray;
+}
+
+.nav-button:active {
+    background-color: gray;
 }
 
 .title {
     color: #FFFFFF;
     text-align: center;
+}
+
+.title-link {
+    color: white;
 }
 
 .container {
@@ -37,6 +66,10 @@ a {
     background-color: white;
     margin-bottom: 2.5%;
     border-radius: 4px;
+}
+
+.navbar-link {
+    color: black;
 }
 
 
