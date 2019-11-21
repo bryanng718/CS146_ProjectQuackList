@@ -71,6 +71,28 @@ ul {
     color: black;
 }
 
+#playlist{
+    list-style: none;
+}
+
+#playlist li a{
+    text-decoration: none;
+    color: black;
+}
+
+#playlist .current-song a{
+    font-weight: bold;
+}
+
+#results {
+    padding-top: 0.5em;
+    padding-bottom: 2.5%;
+    padding-left: 5%;
+    background-color: white;
+    margin: 1.5%;
+    border-radius: 4px;
+}
+
 
 /* Desktop CSS */
 
