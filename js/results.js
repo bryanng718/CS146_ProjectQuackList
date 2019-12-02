@@ -5,3 +5,7 @@ new URLSearchParams(window.location.search).forEach((value,name) => {
     reqDiv.append(document.createElement('br'))
     listResults.append(reqDiv);
 })
+
+function store(){
+    localStorage.setItem("request", listResults.value);
+}
