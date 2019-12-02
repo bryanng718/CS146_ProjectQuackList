@@ -1,0 +1,146 @@
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+nav {
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    margin: 1.5%;
+    justify-content: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+input {
+    margin: 4px 8px;
+}
+
+.nav-button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.nav-button:hover {
+    background-color: lightgray;
+}
+
+.nav-button:active {
+    background-color: gray;
+}
+
+.title {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.title-link {
+    color: white;
+}
+
+.container {
+    padding-top: 0.5em;
+    padding-bottom: 2.5%;
+    padding-left: 5%;
+    background-color: white;
+    margin: 1.5%;
+    border-radius: 4px;
+}
+
+.container p {
+    margin: 4px;
+}
+
+.container ul li {
+    margin: 4px;
+}
+
+.navbar-link {
+    color: black;
+}
+
+#playlist {
+    list-style: none;
+}
+
+#playlist .current-song a {
+    font-weight: bold;
+}
+
+#playlist li a {
+    color: black;
+    border: none;
+    text-align: left;
+    text-decoration: none;
+    font-size: 16px;
+    -webkit-transition-duration: 0.05s;
+    transition-duration: 0.05s;
+}
+
+#playlist li {
+    margin: 12px 16px;
+}
+
+#playlist li:hover {
+    margin: 0px 8px;
+}
+
+#results {
+    padding-top: 0.5em;
+    padding-bottom: 2.5%;
+    padding-left: 5%;
+    background-color: white;
+    margin: 1.5%;
+    border-radius: 4px;
+}
+
+
+/* Desktop CSS */
+
+@media only screen and (min-width: 999px) {
+    nav {
+        justify-content: left;
+    }
+}
+
+
+/*Tablet CSS*/
+
+@media only screen and (min-width: 400px) and (max-width: 998px) {
+    .nav-button {
+        padding: 12px 24px;
+    }
+}
+
+
+/*Phone CSS*/
+
+@media only screen and (max-width: 399px) {
+    .nav-button {
+        padding: 12px 24px;
+    }
+}
