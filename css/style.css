@@ -28,6 +28,10 @@ ul {
     list-style-type: none;
 }
 
+input {
+    margin: 4px 8px;
+}
+
 .nav-button {
     background-color: white;
     border: none;
@@ -67,21 +71,42 @@ ul {
     border-radius: 4px;
 }
 
+.container p {
+    margin: 4px;
+}
+
+.container ul li {
+    margin: 4px;
+}
+
 .navbar-link {
     color: black;
 }
 
-#playlist{
+#playlist {
     list-style: none;
 }
 
-#playlist li a{
-    text-decoration: none;
-    color: black;
+#playlist .current-song a {
+    font-weight: bold;
 }
 
-#playlist .current-song a{
-    font-weight: bold;
+#playlist li a {
+    color: black;
+    border: none;
+    text-align: left;
+    text-decoration: none;
+    font-size: 16px;
+    -webkit-transition-duration: 0.05s;
+    transition-duration: 0.05s;
+}
+
+#playlist li {
+    margin: 12px 16px;
+}
+
+#playlist li:hover {
+    margin: 0px 8px;
 }
 
 #results {
