@@ -15,7 +15,10 @@ nav {
     display: flex;
     background-color: white;
     padding: 10px;
+    padding-right: 10%;
     margin: 1.5%;
+    margin-left: 25%;
+    margin-right: 25%;
     justify-content: center;
 }
 
@@ -32,8 +35,9 @@ input {
     margin: 4px 8px;
 }
 
+
+
 .nav-button {
-    background-color: white;
     border: none;
     color: black;
     padding: 16px 32px;
@@ -68,6 +72,8 @@ input {
     padding-left: 5%;
     background-color: white;
     margin: 1.5%;
+    margin-left: 25%;
+    margin-right: 25%;
     border-radius: 4px;
 }
 
@@ -132,7 +138,22 @@ input {
 
 @media only screen and (min-width: 400px) and (max-width: 998px) {
     .nav-button {
-        padding: 12px 24px;
+        padding: 10%;
+        width:10px;
+    }
+    audio{
+        width:200px;
+    }
+    .container {
+        padding-left: 5%;
+        padding-right: 5%;
+        margin: 1.5%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    #playlist li {
+        margin: 1%;
+       
     }
 }
 
@@ -141,6 +162,21 @@ input {
 
 @media only screen and (max-width: 399px) {
     .nav-button {
-        padding: 12px 24px;
+        padding: 10%;
+        width:10px;
+    }
+    audio{
+        width:200px;
+    }
+    .container {
+        padding-left: 5%;
+        padding-right: 5%;
+        margin: 1.5%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    #playlist li {
+        margin: 1%;
+       
     }
 }
